@@ -39,7 +39,8 @@
     "url": "https://github.com/raethlein/AIML.js/issues"
   },
   "dependencies": {
-    "dom-js": "~0.0.9"
+    "dom-js": "~0.0.9",
+    "mocha": "^3.0.2"
   },
   "description": "Module to interpret AIML files in node.js",
   "devDependencies": {},
@@ -72,7 +73,7 @@
     "url": "https://github.com/raethlein/AIML.js.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test -R nyan"
   },
-  "version": "0.1.7"
+  "version": "0.1.8"
 }
